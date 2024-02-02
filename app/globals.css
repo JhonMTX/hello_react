@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: #0000;
+  scroll-behavior: smooth;
+}
+
+.sb-show-main.sb-main-centered {
+  display: inline !important;
+}
+
+#storybook-root {
+  padding: 0 !important;
+}
